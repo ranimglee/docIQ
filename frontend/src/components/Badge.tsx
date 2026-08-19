@@ -1,0 +1,1 @@
+export function Badge({children}:{children:string}) { const tone=children==='COMPLETED'?'success':children==='FAILED'?'danger':children==='PROCESSING'?'warn':'neutral'; return <span className={`badge ${tone}`}>{children.replace('_',' ')}</span> }

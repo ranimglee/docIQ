@@ -1,0 +1,18 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+dist/
+data/uploads/*
+data/processed/*
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+# npm cache
+.npm-cache/
+**/.npm-cache/
+
+# Environment
+.env
+.env.*
+!.env.example
